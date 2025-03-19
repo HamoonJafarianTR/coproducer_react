@@ -1,0 +1,140 @@
+#editor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 75vh;
+    gap: 5px;
+    width: 100%;
+}
+
+#shots{
+    flex: 1 1 50%;
+    /* width: 50%;  */
+    height: 100%;
+    margin: 0px;
+    overflow: auto;
+    border: 1px solid rgb(225, 225, 225); 
+    padding: 10px;
+    
+}
+.myItem {  
+  width: 100%;              
+  display: flex;          
+  flex-direction: row;     
+  align-items: flex-start;     
+  padding: 10px;  
+}  
+.deleteIcon{
+  color: #FF4742;
+}
+.videoAndSlider {  
+  display: flex;  
+  flex-direction: column;  
+  max-width: 300px;
+  border: 1px solid rgb(225, 225, 225);
+  padding: 10px;
+}  
+  
+.myPara {  
+  flex-grow: 1;   
+  align-self: stretch;  
+  font: 14px Arial, sans-serif;  
+  text-align: justify;
+  border: 1px solid rgb(225, 225, 225);  
+  overflow: auto;  
+  padding: 10px;  
+  margin: 0px;  
+  margin-left: 10px;  
+  margin-right: 10px;
+}  
+  
+.myVideo {  
+  max-width: 100%; /* Adjust to fit within the container */  
+}  
+  
+.mySlider {  
+  width: 100%; /* Make the slider full width of the container */  
+  margin-top: 10px; /* Add spacing between video and slider if needed */  
+}  
+
+
+
+#preview{
+    flex: 1 1 40%;
+    height: 100%;
+    border: 1px solid rgb(225, 225, 225); 
+    justify-items: center;
+    padding: 10px;
+    overflow: auto;
+}
+.fOutput{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fVideo{
+  width: 600px;
+  height: auto;
+  padding-top: 20px;
+}
+.fPara{
+  border: 1px solid rgb(225, 225, 225);
+  width: 580px;
+  padding: 10px;
+  text-align: justify;
+  font: 14px Arial, sans-serif;
+}
+#loader {  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;    /* Centers items horizontally */  
+  justify-content: center; /* Centers items vertically */  
+  height: 50%;          /* Optional: sets the div to full viewport height */  
+}  
+
+#btn{
+    flex: 1 1 100%;
+    margin-top: 10px;
+    width: 100%;  
+    text-align: right;
+}
+
+
+
+  /* CSS */
+.button-24 {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: right;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .button-24:hover,
+  .button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+  }
+  
+  .button-24:active {
+    opacity: .5;
+  }
