@@ -1,0 +1,134 @@
+[
+    {
+        "id": 0,
+        "type": "video",
+        "durationInFrames": 2280,
+        "from": 0,
+        "width": 1280,
+        "height": 720,
+        "left": 0,
+        "top": 0,
+        "row": 0,
+        "rotation": 0,
+        "isDragging": false,
+        "content": "Local Video File",
+        "src": "public/shots/shot_0_0_76.MP4",
+        "videoStartTime": 0,
+        "styles": {
+            "opacity": 1,
+            "zIndex": 100,
+            "transform": "none",
+            "objectFit": "contain"
+        }
+    },
+    {
+        "id": 1,
+        "type": "video",
+        "durationInFrames": 90,
+        "from": 2280,
+        "width": 1280,
+        "height": 720,
+        "left": 0,
+        "top": 0,
+        "row": 0,
+        "rotation": 0,
+        "isDragging": false,
+        "content": "Local Video File",
+        "src": "public/shots/shot_0_76_79.MP4",
+        "videoStartTime": 0,
+        "styles": {
+            "opacity": 1,
+            "zIndex": 100,
+            "transform": "none",
+            "objectFit": "contain"
+        }
+    },
+    {
+        "id": 2,
+        "type": "video",
+        "durationInFrames": 783.4200000000001,
+        "from": 2370,
+        "width": 1280,
+        "height": 720,
+        "left": 0,
+        "top": 0,
+        "row": 0,
+        "rotation": 0,
+        "isDragging": false,
+        "content": "Local Video File",
+        "src": "public/shots/shot_0_79_105.114.MP4",
+        "videoStartTime": 0,
+        "styles": {
+            "opacity": 1,
+            "zIndex": 100,
+            "transform": "none",
+            "objectFit": "contain"
+        }
+    },
+    {
+        "id": 3,
+        "type": "video",
+        "durationInFrames": 60,
+        "from": 0,
+        "width": 1280,
+        "height": 720,
+        "left": 0,
+        "top": 0,
+        "row": 1,
+        "rotation": 0,
+        "isDragging": false,
+        "content": "Local Video File",
+        "src": "public/shots/shot_1_0_2.MP4",
+        "videoStartTime": 0,
+        "styles": {
+            "opacity": 1,
+            "zIndex": 100,
+            "transform": "none",
+            "objectFit": "contain"
+        }
+    },
+    {
+        "id": 4,
+        "type": "video",
+        "durationInFrames": 90,
+        "from": 60,
+        "width": 1280,
+        "height": 720,
+        "left": 0,
+        "top": 0,
+        "row": 1,
+        "rotation": 0,
+        "isDragging": false,
+        "content": "Local Video File",
+        "src": "public/shots/shot_1_2_5.MP4",
+        "videoStartTime": 0,
+        "styles": {
+            "opacity": 1,
+            "zIndex": 100,
+            "transform": "none",
+            "objectFit": "contain"
+        }
+    },
+    {
+        "id": 5,
+        "type": "video",
+        "durationInFrames": 788.4000000000001,
+        "from": 150,
+        "width": 1280,
+        "height": 720,
+        "left": 0,
+        "top": 0,
+        "row": 1,
+        "rotation": 0,
+        "isDragging": false,
+        "content": "Local Video File",
+        "src": "public/shots/shot_1_5_31.28.MP4",
+        "videoStartTime": 0,
+        "styles": {
+            "opacity": 1,
+            "zIndex": 100,
+            "transform": "none",
+            "objectFit": "contain"
+        }
+    }
+]

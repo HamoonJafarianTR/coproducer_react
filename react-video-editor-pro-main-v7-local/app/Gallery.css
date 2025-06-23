@@ -1,0 +1,65 @@
+.Gallery {  
+    padding: 10px;
+    max-height: 70vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}  
+
+.Gallery--empty{
+  color: black;
+}
+    
+.myItemGallery {  
+  width: 100%;            
+  display: flex;        
+  flex-direction: row;   
+  align-items: stretch;   
+  padding: 10px;
+  margin-bottom: 10px;
+}  
+    
+.myCheckboxGallery {  
+  margin-right: 10px;
+  align-self: flex-start;
+  accent-color: #F35C19;
+}  
+
+.myCheckboxGallery *{
+  color: white;
+  background-color: white;
+}
+  
+.myVideoGallery {  
+  max-width: 300px;
+  height: auto;
+}  
+  
+.myParaGallery {  
+  flex-grow: 1; 
+  align-self: stretch;
+  font: 14px Arial, sans-serif;
+  border: 1px solid rgb(225, 225, 225);
+  overflow: auto;
+  padding: 10px;
+  margin: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+}  
+
+.Gallery--loading{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.Gallery--error,
+.Gallery--no-results {
+  color: black;
+  text-align: center;
+  padding: 20px;
+}

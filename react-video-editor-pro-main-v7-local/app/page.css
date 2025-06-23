@@ -1,0 +1,65 @@
+body, html {
+  background-color: white !important;
+}
+
+#my_app{  
+  display: flex;  
+  /* gap: 4%;   */
+  height: 80vh;  
+  flex-wrap: wrap;
+  /* align-items: stretch; */
+  justify-content: space-between;
+  background-color: white;
+  /* min-height: 80vh; */
+  margin: 20px 20px;
+}
+#header{  
+  display: flex;
+  align-items: center;
+  flex: 1 1 100%;
+  border: 1px solid rgb(225, 225, 225);
+  position: relative;
+  margin-bottom: 10px;
+  padding: 5px;
+}  
+#header h1{  
+  position: absolute;  
+  left: 50%;  
+  transform: translateX(-50%);  
+  margin: 0;  
+  color: #F35C19;
+  font-size: 40px;
+  font-weight: bold;
+}
+#header img{
+  height: 80px;
+  width: auto;
+
+}
+#chatbot{  
+  width: 40%; 
+  height: 100%;
+  overflow: auto;  
+  /* border: 1px solid black;  */
+}  
+  
+#gallery {
+  height: 100%;
+  width: 59%; 
+  border: 1px solid rgb(225, 225, 225);  
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 60px; /* Space for the button */
+}  
+#editButton {
+  position: absolute;
+  right: 40px;
+  bottom: 5px;
+  background-color: #F35C19;
+  color: white;
+  z-index: 10;
+}
+
+#editButton:hover {
+  background-color: #e04a0a;
+}
