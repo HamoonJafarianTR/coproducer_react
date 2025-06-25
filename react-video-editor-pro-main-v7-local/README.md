@@ -1,5 +1,18 @@
 # React Video Editor Pro
-1. Download the dataset from ```https://a206709-archive.s3.eu-west-1.amazonaws.com/videoSearchDemo/dataset/coproducer.db``` and put it in ```react-video-editor-pro-main-v7-local/server/```
-2. Update the ```.env``` with the your endpoint and key
-3. Run the python backend ```python  react-video-editor-pro-main-v7-local/server/main.py```
-4. Run the app ```npm run dev```
+# Download the dataset file
+```wget https://a206709-archive.s3.eu-west-1.amazonaws.com/videoSearchDemo/dataset/coproducer.db```
+
+# Move it to the server directory
+```mv coproducer.db react-video-editor-pro-main-v7-local/server/```
+
+# Configure Environment Variables
+```AZURE_OPENAI_API_KEY= ```
+```AZURE_OPENAI_ENDPOINT= ```
+
+# Start the Backend Server
+# Navigate to server directory and start Python backend
+```cd react-video-editor-pro-main-v7-local/server/```
+```python main.py```
+
+# Start the Frontend Application
+```npm run dev```
