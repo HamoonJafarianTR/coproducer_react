@@ -6,12 +6,11 @@
 ```mv coproducer.db react-video-editor-pro-main-v7-local/server/```
 
 # Configure Environment Variables
-```AZURE_OPENAI_API_KEY= ```
+```AZURE_OPENAI_API_KEY= ```. 
 ```AZURE_OPENAI_ENDPOINT= ```
 
 # Start the Backend Server
-# Navigate to server directory and start Python backend
-```cd react-video-editor-pro-main-v7-local/server/```
+```cd react-video-editor-pro-main-v7-local/server/```. 
 ```python main.py```
 
 # Start the Frontend Application
